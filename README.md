@@ -1,5 +1,5 @@
 # M.Farouq Abdillah
-## Personal site built using :  
+## Personal website built using :  
 * HTML
 * CSS  
 * JavaScript
