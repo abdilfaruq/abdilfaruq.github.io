@@ -2,4 +2,7 @@
 ## Personal website built using :  
 * HTML
 * CSS  
-* JavaScript
+* JavaScript  
+
+### Live Demo
+https://abdilfaruq.github.io/
