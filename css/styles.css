@@ -1445,6 +1445,12 @@ a.cv-btn:active {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #cv h2 {
+    font-size: 16px;
+  }
+}
+
 /* ======= FOOTER ======= */
 footer {
   padding-top: 50px;
