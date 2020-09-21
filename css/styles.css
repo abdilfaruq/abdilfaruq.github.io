@@ -1374,9 +1374,11 @@ img#skm-logo {
   #skills {
     padding: 60px 0px;
   }
-
   #skills p {
     padding-bottom: 20px;
+  }
+  .note {
+    font-size: 6.5px;
   }
 }
 
