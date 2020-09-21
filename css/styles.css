@@ -303,7 +303,7 @@ a:hover,a:focus,a:active,a.active {
   font-weight: 300;
 }
 
-.nav>li {
+.nav > li {
   font-size: 13px;
 }
 
@@ -313,7 +313,7 @@ a:hover,a:focus,a:active,a.active {
 }
 
 .navbar-custom {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   border-color: transparent;
   background-color: #000;
   font-family: "Lato", sans-serif;
@@ -408,7 +408,7 @@ a:hover,a:focus,a:active,a.active {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 15px 0;
+    padding: 15px;
     border-bottom: 0;
     letter-spacing: 1px;
     background: 0 0;
@@ -447,6 +447,11 @@ a:hover,a:focus,a:active,a.active {
     -moz-box-shadow: none;
     box-shadow: none;
   }
+  .navbar-brand.page-scroll {
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding-top: 20px;
+  }
 }
 
 /* ======= Introduction ======= */
@@ -464,6 +469,7 @@ a:hover,a:focus,a:active,a.active {
   #intro {
     width: 100%;
     height: auto;
+    background-color: #000;
     background-attachment: fixed;
   }
 }
@@ -607,9 +613,18 @@ a.fa.fa-angle-down:focus {
   #about img#prof-pic {
     width: 150px;
   }
+}
 
-  h2 {
-    font-size: 22px;
+@media only screen and (max-width: 600px) {
+  #about {
+    font-size: 16px;
+    background-size: none;
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #about h3 {
+    font-size: 12px;
   }
 }
 
